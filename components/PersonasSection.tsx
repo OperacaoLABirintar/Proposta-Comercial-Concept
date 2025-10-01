@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { personas } from '../constants';
-import type { Persona } from '../types';
+import { personas } from '../constants.ts';
+import type { Persona } from '../types.ts';
 
 const PersonasSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>(personas[0].id);

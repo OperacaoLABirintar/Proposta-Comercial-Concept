@@ -1,6 +1,6 @@
 import React from 'react';
-import { pricingPlans } from '../constants';
-import type { PricingPlan } from '../types';
+import { pricingPlans } from '../constants.ts';
+import type { PricingPlan } from '../types.ts';
 
 const PricingCard: React.FC<{ plan: PricingPlan }> = ({ plan }) => {
   return (

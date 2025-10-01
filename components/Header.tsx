@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LabirintarLogo } from './icons/LabirintarLogo';
+import { LabirintarLogo } from './icons/LabirintarLogo.tsx';
 
 const Header: React.FC = () => {
   return (

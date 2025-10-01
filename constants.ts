@@ -5,8 +5,8 @@ import {
   ManagementIcon,
   MarketingIcon,
   PedagogicalIcon,
-} from './components/icons/PersonaIcons';
-import type { Axe, PricingPlan, Persona } from './types';
+} from './components/icons/PersonaIcons.tsx';
+import type { Axe, PricingPlan, Persona } from './types.ts';
 
 export const COLORS = {
   goiaba: '#ff595a',

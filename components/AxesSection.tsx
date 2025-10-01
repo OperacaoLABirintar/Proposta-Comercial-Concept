@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { axes } from '../constants';
+import { axes } from '../constants.ts';
 
 const AccordionItem: React.FC<{
   axe: typeof axes[0];

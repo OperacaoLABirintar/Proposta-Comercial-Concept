@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Introduction from './components/Introduction';
-import PersonasSection from './components/PersonasSection';
-import AxesSection from './components/AxesSection';
-import PricingSection from './components/PricingSection';
-import NextStepsSection from './components/NextStepsSection';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Introduction from './components/Introduction.tsx';
+import PersonasSection from './components/PersonasSection.tsx';
+import AxesSection from './components/AxesSection.tsx';
+import PricingSection from './components/PricingSection.tsx';
+import NextStepsSection from './components/NextStepsSection.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   return (
