@@ -30,18 +30,20 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
+// --- CONSTANTS ---
+const GITHUB_REPO_NAME = 'Proposta-Comercial-Concept';
+const LOGO_URL = `/${GITHUB_REPO_NAME}/IMG_5430.png`;
+
 // --- ICONS ---
 
 const LabirintarLogo = ({ className, withTagline = true }) => {
   return (
     <div className={`flex flex-col items-start ${className}`}>
         <div className="flex items-center">
-            <span className="font-slab text-3xl font-bold tracking-wider">
-                <span style={{color: '#ff595a'}}>LAB</span><span style={{color: '#ffa400'}}>IRINTAR</span>
-            </span>
+            <img src={LOGO_URL} alt="LABirintar Logo" className="h-12 object-contain" />
         </div>
          {withTagline && (
-            <p className="font-sans text-xs text-[#BF917F] mt-[-2px]">Lugar de Fazer e Ser</p>
+            <p className="font-sans text-xs text-[#BF917F] mt-1">Lugar de Fazer e Ser</p>
          )}
     </div>
   );
@@ -159,7 +161,7 @@ const Hero = () => {
     <section className="relative py-20 md:py-32 bg-[#F4F0E8] overflow-hidden">
        <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
-        style={{ backgroundImage: `url('/IMG_5430.png')` }}
+        style={{ backgroundImage: `url('${LOGO_URL}')` }}
         aria-hidden="true"
       ></div>
       <div className="container mx-auto px-6 text-center relative z-10">
